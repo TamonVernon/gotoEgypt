@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h6 {
+  font-family: 'montserrat', sans-serif;
+}
+h2,
+p {
+  font-family: freight-display-pro, serif;
+}
+/* Table of Contents
+1. Top-Area
+2. Small Info Area
+3. General Info Area
+*/
+/* 1. beginning of the top area section */
+#top-area {
+  background: url(https://i.postimg.cc/PxSMWm9D/official-top-section-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+#top-area .container {
+  padding: 70px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 80%;
+}
+#top-area .container .text-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#top-area .container .light-text {
+  text-transform: uppercase;
+  color: #837b68;
+  margin-bottom: 25px;
+}
+#top-area .container .light-text h6 {
+  font-family: 'montserrat', sans-serif;
+  font-size: 1rem;
+}
+#top-area .container .light-text::after {
+  content: '';
+  display: block;
+  background: #837b68;
+  height: 1px;
+  width: 25px;
+  margin: 1em auto 0;
+}
+
+#top-area .container h2 {
+  font-family: freight-display-pro, serif;
+  color: #fcfefe;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 0px 18%;
+  letter-spacing: 3px;
+}
+/* end of the top area section */
+/* 2. start of the Light Info section */
+#light-info {
+  background-color: #d9b185;
+}
+#light-info .container {
+  padding: 20px 150px;
+  z-index: 3;
+  position: relative;
+}
+#light-info .container .title-container {
+  text-align: center;
+}
+#light-info .container .title-container h6 {
+  color: #543518;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: montserrat, sans-serif;
+}
+#light-info .container .title-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fcfefe;
+  margin: 20px 0 50px;
+}
+#light-info .container .title-container h2 span {
+  color: #393b36;
+}
+#light-info .container .text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  color: #fcfefe;
+}
+#light-info .container .text-container p {
+  width: 45%;
+  line-height: 1.6;
+  margin-bottom: 10%;
+}
+#light-info .container video {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+#light-info .big-text {
+  color: #d5a97c;
+  font-size: 10rem;
+  font-weight: bold;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#light-info .big-text p {
+  position: relative;
+  z-index: 2;
+  top: 20px;
+}
+/* end of the light info section */
+/* Start of the General info section */
+#info-section {
+  background-color: #d5a97c;
+}
+#info-section .container {
+  padding: 20px 150px;
+  z-index: 3;
+  position: relative;
+}
+#info-section .container video {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: -235px;
+}
+#info-section .container .title-container {
+  text-align: center;
+  margin-top: -15%;
+}
+#info-section .container .title-container h6 {
+  color: #543518;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: 'gitan-latin', sans-serif;
+}
+#info-section .container .title-container h2 {
+  font-size: 2rem;
+  color: #fcfefe;
+  margin: 20px 0 50px;
+  text-transform: capitalize;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+#info-section .container .title-container h2 span {
+  color: #393b36;
+}
+#info-section .container .info-content .egypt-facts {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 60px;
+  margin-top: 120px;
+}
+#info-section .container .info-content .egypt-facts .info-box {
+  grid-column: 1/4;
+}
+#info-section .container .info-content .egypt-facts .image-box {
+  grid-column: 5/8;
+}
+#info-section .container .info-content .egypt-facts h2 {
+  color: #fcfefe;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+#info-section .container .info-content .egypt-facts p {
+  margin: 40px 0;
+  color: #fcfefe;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+#info-section .container .info-content .egypt-facts a {
+  color: #433826;
+  font-family: 'gitan-latin', sans-serif;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #433826;
+}
+#info-section .container .info-content .egypt-facts .image-box2 {
+  grid-column: 1/5;
+}
+#info-section .container .info-content .egypt-facts .info-box2 {
+  grid-column: 6/9;
+}
+#info-section .container .info-content .egypt-facts img {
+  width: 100%;
+}
+#info-section .container .show-more-button {
+  text-align: center;
+}
+#info-section .container .show-more-button button {
+  color: #433826;
+  text-transform: uppercase;
+  border: solid 1.5px #493722;
+  font-family: 'gitan-latin', sans-serif;
+  background-color: transparent;
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  margin: 100px 0;
+}
+/* end of the general info section */
+/* start of the gallery section */
+#gallery {
+  background-color: #d5a97c;
+}
+#gallery .title-container {
+  text-align: center;
+}
+#gallery .container {
+  padding: 100px 150px;
+}
+#gallery .title-container h6 {
+  color: #543518;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: 'gitan-latin', sans-serif;
+}
+#gallery .title-container h2 {
+  font-size: 2rem;
+  color: #fcfefe;
+  margin: 20px 0 50px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+#gallery .title-container h2 span {
+  color: #393b36;
+}
+#gallery .title-container p {
+  font-size: 1.2rem;
+  color: #fcfefe;
+  line-height: 1.7;
+  text-transform: capitalize;
+}
+#gallery .gallery-container {
+  margin-top: 100px;
+  display: flex;
+}
+#gallery .gallery-container .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+}
+#gallery .gallery-container .image-gallery img {
+  width: 100%;
+}
+#gallery .gallery-container .back-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #393b36;
+  margin-right: 30px;
+}
+#gallery .gallery-container .next-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #393b36;
+  margin-left: 30px;
+}
+/* end of gallery css */
+/* start of the sponsors area */
+#sponsors .container {
+  padding: 100px 150px;
+  background-color: #d9b185;
+}
+#sponsors .title-container {
+  text-align: center;
+}
+#sponsors .title-container h6 {
+  color: #543518;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+#sponsors .title-container h2 {
+  font-size: 2rem;
+  color: #fcfefe;
+  margin: 20px 0 80px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+#sponsors .title-container h2 span {
+  color: #393b36;
+}
+#sponsors .sponsor-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+#sponsors .sponsor-container .sponsor1,
+.sponsor2,
+.sponsor3,
+.sponsor4 {
+  display: flex;
+  align-items: center;
+}
+#sponsors .sponsor-container img {
+  width: 100%;
+}
+#sponsors .container .book-now {
+  text-align: center;
+}
+#sponsors .container .book-now button {
+  color: #433826;
+  text-transform: uppercase;
+  border: solid 1.5px #493722;
+  background-color: transparent;
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+/* end of the sponsors area */
+/* Media Queries */
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+  #light-info .container,
+  #info-section .container,
+  #gallery .container,
+  #sponsors .container {
+    padding: 40px 60px;
+  }
+  #light-info .big-text {
+    font-size: 7.3rem;
+  }
+  #info-section .container video {
+    top: -175px;
+  }
+  #info-section .container .info-content .egypt-facts p {
+    font-size: 1rem;
+  }
+  #info-section .container .info-content .egypt-facts .info-box {
+    grid-column: 1/5;
+  }
+  #info-section .container .info-content .egypt-facts .info-box2 {
+    grid-column: 5/9;
+  }
+}
+/* iPad */
+@media only screen and (max-width: 768px) {
+  #info-section .container .info-content .egypt-facts .info-box {
+    grid-column: 1/5;
+  }
+  #info-section .container .info-content .egypt-facts .image-box {
+    grid-column: 5/9;
+  }
+  #info-section .container .info-content .egypt-facts .info-box2 {
+    grid-column: 5/9;
+  }
+  #light-info .big-text {
+    font-size: 5.7rem;
+  }
+  #info-section .container video {
+    top: -130px;
+  }
+  .info-content .egypt-facts img {
+    width: 100%;
+    height: 100%;
+  }
+  #info-section .container .info-content .egypt-facts {
+    grid-gap: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #top-area .container,
+  #light-info .container,
+  #info-section .container,
+  #gallery .container,
+  #sponsors .container {
+    padding: 20px 30px;
+  }
+  #top-area .container h2 {
+    padding: 0;
+  }
+  #light-info .container .text-container {
+    flex-direction: column;
+  }
+  #light-info .container .text-container p {
+    width: 100%;
+  }
+  #light-info .big-text p {
+    display: none;
+  }
+  #info-section .container video {
+    position: initial;
+  }
+  #info-section .container .title-container {
+    margin-top: 15%;
+  }
+  #info-section .container .info-content .egypt-facts {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin-top: 80px;
+  }
+  #info-section .container .info-content .egypt-facts h2 {
+    font-size: 1.7rem;
+  }
+  #info-section .container .info-content .egypt-facts img {
+    height: auto;
+  }
+  #info-section .container .info-content .egypt-facts .info-box {
+    grid-column: 1/8;
+  }
+  #info-section .container .info-content .egypt-facts .image-box {
+    grid-column: 1/9;
+  }
+  #info-section .container .info-content .egypt-facts .info-box2 {
+    grid-column: 1/9;
+    grid-row: 3/3;
+  }
+  #info-section .container .info-content .egypt-facts .image-box2 {
+    grid-column: 1/8;
+  }
+  #gallery .gallery-container .back-btn {
+    display: none;
+  }
+  #gallery .gallery-container .next-btn {
+    display: none;
+  }
+  #gallery .gallery-container .image-gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  #sponsors .sponsor-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
